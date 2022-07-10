@@ -1,0 +1,9 @@
+###
+POST localhost:8081/api/v1/products
+Content-Type: application/json
+
+{
+  "name": "Camisas",
+  "price": 19.99,
+  "quantity": 2
+}

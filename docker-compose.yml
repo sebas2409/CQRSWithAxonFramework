@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'sebas2409'
+      MYSQL_PASSWORD: 'Sebas2409$$'
+      MYSQL_ROOT_PASSWORD: 'Sebas2409$$'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+      
