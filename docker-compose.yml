@@ -13,4 +13,8 @@ services:
       - '3306:3306'
     expose:
       - '3306'
-      
+  axon-server:
+    image: axoniq/axonserver:latest
+    ports:
+      - "8024:8024"
+      - "8124:8124"
